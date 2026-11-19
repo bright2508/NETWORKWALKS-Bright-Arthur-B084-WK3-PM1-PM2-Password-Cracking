@@ -33,13 +33,14 @@ The main goals of this activity were to:
 
 The supplied PDF and the required software were downloaded and made available for the exercise.
 
+<img width="1241" height="156" alt="image" src="https://github.com/user-attachments/assets/c51da5b6-44fb-4211-8ccc-4d9447b3a83c" />
 
+<img width="892" height="57" alt="image" src="https://github.com/user-attachments/assets/6d361bd1-3913-4dbd-857c-04721254a7f8" />
 
-**2. Linked Johnny to the John the Ripper application**
+**2.Installed and linked Johnny to the John the Ripper application**
 
 Johnny was configured to use the John the Ripper executable. This allows the graphical interface to manage the password-auditing process.
 
-![Johnny application configuration](screenshots/q2.png)
 
 **3. Obtained the PDF hash**
 
