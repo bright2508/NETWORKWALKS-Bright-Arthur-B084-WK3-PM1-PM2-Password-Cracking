@@ -18,3 +18,53 @@ The main goals of this activity were to:
 - Confirm the result by opening the supplied practice document with the recovered password.
 - Recognise why long, unique, and difficult-to-guess passwords are important.
 
+## 3. Practical Exercise A — Using John the Ripper and Johnny
+
+### Software and Resources
+
+- John the Ripper 1.9.0 Jumbo (Windows 64-bit)
+- Johnny 2.2 graphical interface (Windows)
+- Online PDF hash extraction utility: `onlinehashcrack.com`
+- **Practice document:** `My Locked PDF1.pdf` (267 KB)
+
+### Procedure and Evidence
+
+**1. Prepared the practice document and required applications**
+
+The supplied PDF and the required software were downloaded and made available for the exercise.
+
+
+
+**2. Linked Johnny to the John the Ripper application**
+
+Johnny was configured to use the John the Ripper executable. This allows the graphical interface to manage the password-auditing process.
+
+![Johnny application configuration](screenshots/q2.png)
+
+**3. Obtained the PDF hash**
+
+The PDF hash was extracted from the practice document. A hash is a transformed representation used by password-protection systems; it is not the original password itself.
+
+![PDF hash extraction](screenshots/q3.png)
+
+**4. Imported the hash into Johnny**
+
+The extracted hash was loaded into Johnny so that the application could assess candidate passwords against it.
+
+![Hash imported into Johnny](screenshots/q4.png)
+
+**5. Conducted the password audit**
+
+The password-auditing process was started, and the application identified a matching password candidate.
+
+![Password audit result](screenshots/q5.png)
+
+**6. Checked the result against the original document**
+
+The recovered password was used to open the supplied PDF, confirming that the result worked for the practice file.
+
+![PDF access verification](screenshots/q6.png)
+
+**Outcome:** The password recovered for this training document was `good-luck`.
+
+> **Note:** The screenshots document the stages of the exercise. The recovered password is included only as a result from this supplied practice file; do not publish passwords belonging to real users or confidential documents.
