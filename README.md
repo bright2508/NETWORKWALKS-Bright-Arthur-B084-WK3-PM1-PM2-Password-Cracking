@@ -65,8 +65,7 @@ The password-auditing process was started, and the application identified a matc
 
 The recovered password was used to open the supplied PDF, confirming that the result worked for the practice file.
 
-![PDF access verification](screenshots/q6.png)
+<img width="892" height="920" alt="jonny 7" src="https://github.com/user-attachments/assets/4a2108e2-6d8c-4752-b1ca-2348faea04db" />
 
 **Outcome:** The password recovered for this training document was `good-luck`.
 
-> **Note:** The screenshots document the stages of the exercise. The recovered password is included only as a result from this supplied practice file; do not publish passwords belonging to real users or confidential documents.
