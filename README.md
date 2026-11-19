@@ -40,7 +40,9 @@ The supplied PDF and the required software were downloaded and made available fo
 **2.Installed and linked Johnny to the John the Ripper application**
 
 Johnny was configured to use the John the Ripper executable. This allows the graphical interface to manage the password-auditing process.
+<img width="145" height="110" alt="jonny 2" src="https://github.com/user-attachments/assets/0613d5d0-bace-4b14-9009-36b4188c3e15" />
 
+<img width="1132" height="1000" alt="jonny4" src="https://github.com/user-attachments/assets/a113ef0e-a75d-470e-a021-d8d86efa8c13" />
 
 **3. Obtained the PDF hash**
 
