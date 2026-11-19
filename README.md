@@ -48,13 +48,12 @@ Johnny was configured to use the John the Ripper executable. This allows the gra
 
 The PDF hash was extracted from the practice document. A hash is a transformed representation used by password-protection systems; it is not the original password itself.
 
-![PDF hash extraction](screenshots/q3.png)
+<img width="1022" height="757" alt="jonny 5" src="https://github.com/user-attachments/assets/54b29043-c3e9-4a00-be73-d117c2da0668" />
 
 **4. Imported the hash into Johnny**
 
 The extracted hash was loaded into Johnny so that the application could assess candidate passwords against it.
 
-![Hash imported into Johnny](screenshots/q4.png)
 
 **5. Conducted the password audit**
 
