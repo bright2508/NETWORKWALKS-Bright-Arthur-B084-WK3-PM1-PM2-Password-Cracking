@@ -59,7 +59,7 @@ The extracted hash was loaded into Johnny so that the application could assess c
 
 The password-auditing process was started, and the application identified a matching password candidate.
 
-![Password audit result](screenshots/q5.png)
+<img width="972" height="1022" alt="jonny6" src="https://github.com/user-attachments/assets/8161101a-bdad-4215-a1d2-6914262a9e21" />
 
 **6. Checked the result against the original document**
 
