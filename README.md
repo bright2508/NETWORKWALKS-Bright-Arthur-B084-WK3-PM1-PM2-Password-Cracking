@@ -85,12 +85,11 @@ The recovered password was used to open the supplied PDF, confirming that the re
 The designated practice document was selected before beginning the web-based assessment.
 
 <img width="342" height="77" alt="image" src="https://github.com/user-attachments/assets/7a706505-b262-434f-a5df-fc1a1ba49ae0" />
+
 **2. Generated the hash with the Hash Calculator**
 
 The Hash Calculator was used to obtain the hash associated with the supplied PDF. This step prepares the information required by the password-auditing utility.
-
-
-
+<img width="1067" height="925" alt="jonny 8" src="https://github.com/user-attachments/assets/d785f460-7712-4618-ad5f-8e6d8cb04ae7" />
 **3. Submitted the extracted hash to the Password Cracker**
 
 The resulting hash was transferred to the NetworkWalks Password Cracker for the next stage of the exercise.
