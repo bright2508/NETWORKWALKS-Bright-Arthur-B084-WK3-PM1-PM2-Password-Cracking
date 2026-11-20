@@ -88,7 +88,7 @@ The designated practice document was selected before beginning the web-based ass
 
 **2. Generated the hash with the Hash Calculator**
 
-The Hash Calculator was used to obtain the hash associated with the supplied PDF. This step prepares the information required by the password-auditing utility.
+The Hash Calculator generated the hash for the supplied PDF. This step prepares the information required by the password-auditing utility.
 <img width="1067" height="925" alt="jonny 8" src="https://github.com/user-attachments/assets/d785f460-7712-4618-ad5f-8e6d8cb04ae7" />
 **3. Submitted the extracted hash to the Password Cracker**
 
@@ -111,9 +111,8 @@ The utility reported a successful password recovery for the supplied training do
 
 I tested the recovered password by opening the original practice PDF. This final check helped confirm that the result was valid.
 
-![PDF opened successfully](screenshots/q12.png)
+<img width="716" height="792" alt="jonny 10" src="https://github.com/user-attachments/assets/2b213609-8b73-40a6-a9a8-88f86be95838" />
 
-**Outcome:** The password recovered in this exercise was `good-luck`.
 
 ## 5. What the Exercise Demonstrates
 
@@ -140,7 +139,7 @@ A password hash allows an auditing tool to test candidate passwords without simp
 
 - Carry out password assessments only on files you own or have clear permission to test.
 - Use designated training documents and controlled lab environments.
-- Avoid uploading confidential, personal or business documents to third-party online services. Use approved tools and follow the relevant data-handling rules.
+- Avoid uploading confidential, personal, or business documents to third-party online services. Use approved tools and follow the relevant data-handling rules.
 - Do not use recovered passwords to access another person's files or accounts.
 - For important documents, use a long, unique password and store it securely.
 
@@ -148,4 +147,4 @@ A password hash allows an auditing tool to test candidate passwords without simp
 
 This week's practical work provided exposure to two approaches for examining the security of password-protected PDF files. Working with John the Ripper and Johnny introduced the locally installed tool workflow, while the NetworkWalks utilities demonstrated a browser-based alternative.
 
-The key lesson is that password protection is only as dependable as the password chosen. A document protected with a predictable password may be at greater risk than one secured with a long and unique passphrase. The exercise also reinforced the importance of authorised testing, careful handling of files and verification of results.
+The key lesson is that password protection is only as dependable as the password chosen. A document protected with a predictable password may be at greater risk than one secured with a long and unique passphrase. The exercise also reinforced the importance of authorised testing, careful handling of files, and verification of results.
