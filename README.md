@@ -85,23 +85,22 @@ The recovered password was used to open the supplied PDF, confirming that the re
 The designated practice document was selected before beginning the web-based assessment.
 
 <img width="342" height="77" alt="image" src="https://github.com/user-attachments/assets/7a706505-b262-434f-a5df-fc1a1ba49ae0" />
-
 **2. Generated the hash with the Hash Calculator**
 
 The Hash Calculator was used to obtain the hash associated with the supplied PDF. This step prepares the information required by the password-auditing utility.
 
-<img width="937" height="605" alt="jonny8" src="https://github.com/user-attachments/assets/114996c5-8bf4-4e46-8543-518531fa61be" />
+
 
 **3. Submitted the extracted hash to the Password Cracker**
 
 The resulting hash was transferred to the NetworkWalks Password Cracker for the next stage of the exercise.
+<img width="937" height="605" alt="jonny8" src="https://github.com/user-attachments/assets/114996c5-8bf4-4e46-8543-518531fa61be" />
 
-<img width="887" height="901" alt="jonny9" src="https://github.com/user-attachments/assets/cde57fb2-bef5-4d5f-a4fd-c4c0f6c3facf" />
 **4. Started the password assessment**
 
 The web utility processed the submitted hash as part of the practical demonstration.
 
-![Password assessment in progress](screenshots/q10.png)
+<img width="887" height="901" alt="jonny9" src="https://github.com/user-attachments/assets/cde57fb2-bef5-4d5f-a4fd-c4c0f6c3facf" />
 
 **5. Reviewed the result**
 
@@ -111,7 +110,7 @@ The utility reported a successful password recovery for the supplied training do
 
 **6. Validated access to the PDF**
 
-The recovered password was tested by opening the original practice PDF. This final check helped confirm that the result was valid.
+I tested the recovered password by opening the original practice PDF. This final check helped confirm that the result was valid.
 
 ![PDF opened successfully](screenshots/q12.png)
 
