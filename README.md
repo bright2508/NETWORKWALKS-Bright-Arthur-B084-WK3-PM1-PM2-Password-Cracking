@@ -104,8 +104,8 @@ The web utility processed the submitted hash as part of the practical demonstrat
 **5. Reviewed the result**
 
 The utility reported a successful password recovery for the supplied training document.
+<img width="871" height="732" alt="jonny10" src="https://github.com/user-attachments/assets/6326cd70-e3eb-4c6d-9d48-8e3b39c630e9" />
 
-![Recovered password result](screenshots/q11.png)
 
 **6. Validated access to the PDF**
 
