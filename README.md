@@ -69,3 +69,85 @@ The recovered password was used to open the supplied PDF, confirming that the re
 
 **Outcome:** The password recovered for this training document was `good-luck`.
 
+
+## 4. Practical Exercise B — NetworkWalks Online Utilities
+
+### Tools and Practice File
+
+- NetworkWalks Hash Calculator: `https://networkwalks.com/hash-calculator`
+- NetworkWalks Password Cracker: `https://networkwalks.com/password-cracker`
+- **Practice document:** [My Locked PDF2.pdf](https://github.com/user-attachments/files/35117931/My.Locked.PDF2.pdf)
+
+### Procedure and Evidence
+
+**1. Identified the correct PDF for the second exercise**
+
+The designated practice document was selected before beginning the web-based assessment.
+
+<img width="342" height="77" alt="image" src="https://github.com/user-attachments/assets/7a706505-b262-434f-a5df-fc1a1ba49ae0" />
+
+**2. Generated the hash with the Hash Calculator**
+
+The Hash Calculator was used to obtain the hash associated with the supplied PDF. This step prepares the information required by the password-auditing utility.
+
+<img width="937" height="605" alt="jonny8" src="https://github.com/user-attachments/assets/114996c5-8bf4-4e46-8543-518531fa61be" />
+
+**3. Submitted the extracted hash to the Password Cracker**
+
+The resulting hash was transferred to the NetworkWalks Password Cracker for the next stage of the exercise.
+
+<img width="887" height="901" alt="jonny9" src="https://github.com/user-attachments/assets/cde57fb2-bef5-4d5f-a4fd-c4c0f6c3facf" />
+**4. Started the password assessment**
+
+The web utility processed the submitted hash as part of the practical demonstration.
+
+![Password assessment in progress](screenshots/q10.png)
+
+**5. Reviewed the result**
+
+The utility reported a successful password recovery for the supplied training document.
+
+![Recovered password result](screenshots/q11.png)
+
+**6. Validated access to the PDF**
+
+The recovered password was tested by opening the original practice PDF. This final check helped confirm that the result was valid.
+
+![PDF opened successfully](screenshots/q12.png)
+
+**Outcome:** The password recovered in this exercise was `good-luck`.
+
+## 5. What the Exercise Demonstrates
+
+Although both practicals dealt with the same general concept, they used different working environments:
+
+| Area | John the Ripper and Johnny | NetworkWalks web utilities |
+|---|---|---|
+| Working environment | Locally installed Windows applications | Browser-based tools |
+| Hash preparation | PDF hash extracted using an online utility | Hash Calculator |
+| Password assessment | John the Ripper managed through Johnny | NetworkWalks Password Cracker |
+| Verification | Opened the supplied PDF with the recovered password | Opened the supplied PDF with the recovered password |
+
+A password hash allows an auditing tool to test candidate passwords without simply reading the original password from the hash. In a dictionary-based assessment, candidate words and phrases are checked until a match is found or the available candidates are exhausted. A predictable password can therefore be much easier to recover than a long, unique one.
+
+## 6. Key Lessons and Security Takeaways
+
+- **Password predictability matters:** Common words, familiar phrases and simple patterns may be easier to guess during a password audit.
+- **Hashing is not encryption:** A hash is a one-way representation used for verification. Password-auditing tools compare candidate passwords by processing them and checking for a match.
+- **Different tools can demonstrate the same principle:** A desktop application and a browser-based utility can provide different interfaces for examining password strength.
+- **Verification is important:** A reported match should be checked against the authorised practice document rather than accepted without confirmation.
+- **Use unique passwords:** Reusing one password across multiple files or accounts increases the impact if that password is discovered.
+
+## 7. Responsible Use and Practical Notes
+
+- Carry out password assessments only on files you own or have clear permission to test.
+- Use designated training documents and controlled lab environments.
+- Avoid uploading confidential, personal or business documents to third-party online services. Use approved tools and follow the relevant data-handling rules.
+- Do not use recovered passwords to access another person's files or accounts.
+- For important documents, use a long, unique password and store it securely.
+
+## 8. Final Reflection
+
+This week's practical work provided exposure to two approaches for examining the security of password-protected PDF files. Working with John the Ripper and Johnny introduced the locally installed tool workflow, while the NetworkWalks utilities demonstrated a browser-based alternative.
+
+The key lesson is that password protection is only as dependable as the password chosen. A document protected with a predictable password may be at greater risk than one secured with a long and unique passphrase. The exercise also reinforced the importance of authorised testing, careful handling of files and verification of results.
