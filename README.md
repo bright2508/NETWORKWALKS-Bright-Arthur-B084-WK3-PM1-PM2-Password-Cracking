@@ -148,3 +148,9 @@ A password hash allows an auditing tool to test candidate passwords without simp
 This week's practical work provided exposure to two approaches for examining the security of password-protected PDF files. Working with John the Ripper and Johnny introduced the locally installed tool workflow, while the NetworkWalks utilities demonstrated a browser-based alternative.
 
 The key lesson is that password protection is only as dependable as the password chosen. A document protected with a predictable password may be at greater risk than one secured with a long and unique passphrase. The exercise also reinforced the importance of authorised testing, careful handling of files, and verification of results.
+
+
+- **Program:** Cybersecurity Internship at NETWORKWALKS
+- **Week:** 03
+- **Author:** **Bright Arthur**
+- **LinkedIn Profile:** www.linkedin.com/in/brightarthur
